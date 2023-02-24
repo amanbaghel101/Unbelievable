@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" > 
+<head>
+    <meta charset="ISO-8859-1">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+     
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    
+</head>
+<body>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}   
+        <div class="row1" style="background-color:black">
+            <div class="column1" style="background-color:whitesmoke;">
+            <h1 style="color:lightseagreen;">High Rise construction</h1>
+            </div>
+            <div class="column2" style="background-color:whitesmoke;">
+            <p style="font-size: 20px;"><a href="" style="text-decoration: none;">Business Cordinator &ensp;<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5An7nV6-Ii0B0nLuE0WD5wSxN3Xk3KfzuQ&usqp=CAU" alt="User Profile" style="width:50px;height: 50px;" /></a></p>
+            </div>
+        </div>
+        <div class="sidenav">
+        <img src="{% static 'Symbol.jpg' %}" alt="Trulli" width="133" height="77" style="margin-left:10px">
+        <a href="#Dashboard" style="margin-top:30px">Dashboard</a>
+        <a href="visit.html">Live Visit</a>
+        <a href="#Live Report">Live Report</a>
+        <a href="#Active Log">Active Log</a>
+        <a href="#Analogue">Analogue</a>
+        <a href="#Create Ticket">Create Ticket</a>
+        <a href="#Insitution MIS">Insitution MIS</a>
+        <a href="#New User">New User</a>
+        <a href="#Edit Profile">Edit Profile</a>
+        </div>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlhUIJLzvX9hk0wWDu4UFyqQZ_5idLzsFxw&usqp=CAU" alt="Trulli" width="20" height="20" style="margin-left:170px">
+            <a href="" style="margin-left:00px">Home</a>      
+        <div align="right">
+            <label for="start">Start date:</label>
+            <input type="date" id="start" name="trip-start"
+                value="2018-07-22"
+                min="2000-01-01" max="2023-12-31">
+            <label for="start">End date:</label>
+            <input type="date" id="start" name="trip-start"
+                value="2018-07-22"
+                min="2000-01-01" max="2023-12-31">
+            <a href="">Apply</a>
+            <p id="p2"></p>
+            <p id="p2"></p>
+        </div>
+
+
+        <div class="row">
+        <div class="column" style="background-color:#8A2BE2; margin-left: 170PX;">
+            <h2>Total No Of Cases Initiated</h2>
+            <p>See details..</p>
+        </div>
+        <div class="column" style="background-color:#4169E1; margin-left: 5PX;">
+            <h2>Total No Of visit Done</h2>
+            <p>See details..</p>
+        </div>
+        <div class="column" style="background-color:#FF7F50; margin-left: 5PX">
+            <h2>Toatl Hold Cases</h2>
+            <p>See details..</p>
+        </div> 
+        <div class="column" style="background-color:#696969; margin-left: 5PX">
+            <h3>Total No Visits For Tommorrow</h3>
+            <p>See details..</p>
+        </div>
+        </div>
+    <div class="square">
+        <div style="margin-top:30px;margin-bottom: -30px;">
+        <input type="text" placeholder="Search.." name="search2">
+        </div>
+        <table style="width:100%">
+            <tr>
+            <th>Engineer name</th>
+            <th>Total Allocation</th>
+            <th>Total Case Done</th>
+            <th colspan="4">Allocation<hr>Spill | Today | Tommorrow | Hold</th>
+            <th>Total Visit Done Today</th>
+            </tr>
+            <tr>
+            <td>Engineer Field</td>
+            <td>6</td>
+            <td>1</td>
+            <td>18</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

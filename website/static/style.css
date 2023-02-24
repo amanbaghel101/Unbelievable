@@ -1,0 +1,548 @@
+body {
+    background: #f2f2f2;
+  }
+  .text-center {
+    text-align: center;
+    background-color: red;
+  }
+  .pull-left {
+    float: left;
+  }
+  .pull-right {
+    float: right;
+  }
+   
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  }
+  .logo h1 {
+    color: #00A885;
+    margin-bottom: -12px;
+  }
+  input[type="checkbox"] {
+    width: auto;
+  }
+  button {
+    cursor: pointer;
+    background: #00A885;
+    width: 100%;
+    border: 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    
+  }
+   
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    z-index: 3;
+    border: 1px solid #d9d9d9;
+    padding: 10px 10px;
+    background: #ffffff;
+    box-sizing: border-box;
+    font-weight: 400;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+   
+  .wrapper {
+    width: 320px;
+    background: #fff;
+    margin: 20px auto;
+    min-height: 200px;
+    border: 1px solid #f3f3f3;
+  }
+  .wrapper .inner-warpper {
+    padding: 50px 30px 60px;
+    box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.063);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+   /* slidebar */
+
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  .sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a{
+     padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;  padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+ 
+  
+  /* print space */
+ 
+  p.ex1 {
+    margin-left: 2000px;
+  }
+  
+  #example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px ;
+  }
+ 
+  
+  /* color */
+ 
+              p {
+                  margin-top:50px;
+                  background-color:green;
+              }
+        
+    .header {
+    width: 100%;
+    height: 80px;
+    background-color: #E1E1E1;
+    box-sizing:border-box; 
+    margin-top: 0px;
+    }
+  
+  /* Profile.html */
+  .row1 {
+    height: 101px;
+    width: 87%;
+    margin-left: 160px;
+    margin-top: 30px;
+  
+  }
+  .column1 {
+    float: left;
+    width: 75%;
+    position: static;
+    padding: 10px;
+    height: 100px;
+    margin-left: 0px; /* Should be removed. Only for demonstration */
+  }
+  .column2 {
+    float: left;
+    width: 25%;
+    position: static;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+   
+  /* profile */
+  table{
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+  }
+  
+  #show th, #show td{
+    padding: 13px;
+  }
+  
+  #btna td input{
+    width: 100%;
+  }
+   
+   
+  
+  .row2{
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 400px;
+    background-color: white;
+    border: 2px;
+  
+  }
+  
+  .column3{
+    margin: 30px 30px 30px 30px;
+    border: thick solid black;
+    height: 80%;
+    font-size: 35px;
+  
+  }
+  
+  /* visit.html */
+  .row3{
+    margin-left: 165px;
+    margin-top: -21px;
+    height: 450px;
+    background-color: white;
+    border: 2px;
+  }
+  .row4{
+    margin-left: 165px;
+    margin-top: -18px;
+    height: 490px;
+    background-color: white;
+    border: 2px;
+  }
+   .buttonc{
+    margin-left: 0px;
+    height: 90px;
+    background-color:whitesmoke ;
+    margin-top: -5px;
+   }
+    
+  .inline {
+    display: inline-block; 
+    height: 100%;
+  }
+   
+  /** edit user profile **/
+  .rowe{
+    height: 550px;
+    width: 88%;
+    background-color: white;
+    margin-left: 160px;
+  }
+  .columne{
+    height: 100px;
+    width: 100%;
+    background-color: lightcyan;  
+  }
+  .Rpage {
+    margin-top: 30px;
+    height: 80%;
+    width: 100%;
+    }
+  .Rpage1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+   
+  
+  
+  .button:active {
+      background-color: #ffbf00;
+  }
+  
+  /* MM sheet */
+  .column4 {
+    float: left;
+    width: 102%;
+    position: static;
+    padding: 10px;
+    height: 50px;
+    margin-left: -8px;
+    
+  }
+  .button4 {
+    background-color: #00ddff;
+    height: 50px;
+    width: 102%;
+    margin-left: -8px;
+    margin-top: -10px;
+  }
+  
+  input[type=text] {
+    width: 36%;
+    height: 30px;
+    margin: -3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Physical.html */
+      div.static {
+    position: static;
+     
+    height: 36px;
+    width: 1244px;
+
+    margin-top: -5px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+    div.static1 {
+    position: static;
+    text-align: center;
+    height: 26px;
+    width: 378px;
+    margin-left: 110px;
+    margin-top: -105px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  input[type=test] {
+    width: 374px;
+    height: 30px;
+    margin-left: 45px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=tept] {
+    width: 93px;
+    height: 30px;
+    margin-left: -4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  /* Physical2.html */
+  .det {
+    background-color: lightseagreen;
+    height: 50px;
+    width: 100%;
+  }
+  
+  
+  /* tech.html */
+  
+  .rowt{
+    margin-left: 50px;
+    height: 2700px;
+    width: 91%;
+    margin-top: 50px;
+    background-color: whitesmoke;
+  }
+  .labelt{
+    font-size: 25px;
+  }
+  input[type=inputt]{
+    width: 1080px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* report.html */
+  
+   .square {
+    margin-left: 170px;
+    height: 500px;
+    width: 85%;
+    background-color: ghostwhite;
+  }
+  
+  /* LiveCases.html */
+  
+  
+   .square2 {
+    margin-left: 170px;
+    height: 500px;
+    width: 85%;
+    background-color: ghostwhite;
+  }
+  
+  
+           table, th, td {
+          border: 1px black;
+          }
+          th, td {
+          padding: 10px;
+          background-color: white;
+          color: black;
+          }
+   
+  
+/* reg.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 140vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  margin-left: 159px;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b59b6;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+  
+  

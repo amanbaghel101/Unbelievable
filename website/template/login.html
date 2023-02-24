@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" > 
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+</head>
+<body>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+<div class="text-center">
+  <h1>High Raise constructions</h1>
+</div>
+
+<div class="wrapper">
+	<div id="example1">
+  <div class="inner-warpper text-center">
+    <h2 class="title">Login to your account</h2>
+    
+
+      <div class="input-group">
+        <label class="palceholder" for="userName"></label>
+        <input class="form-control"name="pname"id="userName"type=" "placeholder="Emp. Id" />
+      </div>
+      <div class="input-group">
+        <label class="palceholder" for="userPassword"> </label>
+        <input class="form-control" name="password" id="userPassword" type="password" placeholder="Password" />
+      </div>
+
+      <!--<a href="Home.html">
+      <button type="submit" id="login">Login</button>
+      </a>-->
+      <div class=" " > 
+        <a href="Home.html">Login</a>
+      </div>
+      
+        <div class="pull-left remember-me">
+          <input id="rememberMe" type="checkbox">
+          <label for="rememberMe">Remember Me</label>
+          
+        </div>
+        <a class="forgot pull-right" href="#">Forgot Password?</a>
+      </div>
+   
+  </div>
+</div>
+</div>
+</form>
+</body>
+</html>
